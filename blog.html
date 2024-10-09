@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        main {
+            padding: 2rem;
+            display: table;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .blog-content {
+            display: table-cell;
+            width: 70%;
+            padding-right: 2rem;
+        }
+        aside {
+            display: table-cell;
+            width: 30%;
+            vertical-align: top;
+            background-color: #f4f4f4;
+            padding: 1rem;
+        }
+        article {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1rem;
+        }
+        article:last-child {
+            border-bottom: none;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .post-meta {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        .read-more {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #3498db;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-content">
+            <h1>Nosso Blog</h1>
+            
+            <article>
+                <h2>Tendências de Tecnologia para 2025</h2>
+                <p class="post-meta">Publicado em 15 de outubro de 2024 por João Silva</p>
+                <p>As tendências tecnológicas para 2025 prometem revolucionar a maneira como interagimos com o mundo digital. Inteligência artificial, realidade aumentada e computação quântica estão entre os tópicos mais discutidos...</p>
+                <a href="#" class="read-more">Leia mais</a>
+            </article>
+            
+            <article>
+                <h2>Como Melhorar a Segurança Cibernética da Sua Empresa</h2>
+                <p class="post-meta">Publicado em 10 de outubro de 2024 por Maria Santos</p>
+                <p>Com o aumento dos ataques cibernéticos, é crucial que as empresas priorizem sua segurança online. Neste artigo, compartilhamos dicas práticas e estratégias eficazes para proteger seus dados e sistemas...</p>
+                <a href="#" class="read-more">Leia mais</a>
+            </article>
+            
+            <article>
+                <h2>O Impacto da IA no Mercado de Trabalho</h2>
+                <p class="post-meta">Publicado em 5 de outubro de 2024 por Carlos Oliveira</p>
+                <p>A inteligência artificial está transformando rapidamente o cenário do mercado de trabalho. Descubra quais profissões estão em risco de automação e quais novas oportunidades estão surgindo nesta era tecnológica...</p>
+                <a href="#" class="read-more">Leia mais</a>
+            </article>
+        </section>
+
+        <aside>
+            <section>
+                <h2>Categorias</h2>
+                <ul>
+                    <li><a href="#">Tecnologia</a></li>
+                    <li><a href="#">Segurança</a></li>
+                    <li><a href="#">Inovação</a></li>
+                    <li><a href="#">Desenvolvimento Web</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Posts Recentes</h2>
+                <ul>
+                    <li><a href="#">Tendências de Tecnologia para 2025</a></li>
+                    <li><a href="#">Como Melhorar a Segurança Cibernética da Sua Empresa</a></li>
+                    <li><a href="#">O Impacto da IA no Mercado de Trabalho</a></li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
